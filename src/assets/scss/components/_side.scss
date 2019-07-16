@@ -1,0 +1,32 @@
+	#sideInfo {
+            color: _palette(sideStatement);
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+		padding-left: 10px;
+		padding-right: 10px;
+      }
+      
+      .hero-title {
+		font-family: 'Josefin Sans';
+            font-size: 2.8em;
+            font-weight: _font(weight-bold-title);
+	      letter-spacing: _font(letter-spacing-title);
+            background-color:_palette(typeFont);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+      }
+
+      .image-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;       
+            border-width: 0em;
+            position: relative;
+            top: -35px;
+        
+      }
+
+      .projects-link {
+
+            background-color: _palette(typeFont);
+      }

@@ -1,0 +1,56 @@
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:relative;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:relative;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:relative;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:relative;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:relative;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:relative;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:relative;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:relative;}
+}
+
+.stars, .twinkling, .clouds {
+     position:relative;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+     width:100%;
+     height:100%;
+
+}
+.twinkling{
+     background:transparent url(../images/twinkling.png) repeat top center;
+     -moz-animation:move-twink-back 10s linear infinite;
+     -ms-animation:move-twink-back 10s linear infinite;
+     -o-animation:move-twink-back 10s linear infinite;
+     -webkit-animation:move-twink-back 10s linear infinite;
+     animation:move-twink-back 10s linear infinite;
+  }
+.stars {
+     background:#000 url(../images/stars.png) repeat top center;
+
+}

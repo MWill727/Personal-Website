@@ -1,0 +1,57 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Gill Sans', sans-serif),
+		family-fixed:		('Gill Sans', sans-serif),
+		weight:				300,
+		weight-bold:		250,
+		weight-bold-title:  390,
+		letter-spacing:		0.025em,
+		letter-spacing-title:0.30em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+	$palette: (
+		bg:					#000000,
+		bg-alt:				#2a2f4a,
+		terminal:			#140c1a,
+		terminal-links:		#0e0736,
+		terminal-header: 	#140c1a,
+		inputStatement:     #ffca5f,
+		outputStatement:    #cccccc,
+		intro:				#ffffff,
+		fg:					#ffffff,
+		fg-bold:			#ffffff,
+		fg-light:			#f4f4ff33,
+		border:				#d4d4ff1a,
+		border-bg:			#d4d4ff09,
+		sideStatement:		#cccccc,
+		highlight:			#ce0d1e,
+		accent1:			#c90011, 
+		accent2:			#548C99,
+		accent3:			#ffc34a, 
+		accent4:			#9e0303, 
+		accent5:			#212129,
+		accent6:			#87c5a4,
+		typeFont: 			#ffca5f,
+	);
